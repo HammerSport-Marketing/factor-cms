@@ -1,0 +1,32 @@
+{
+  "name": "factor-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index",
+  "private": true,
+  "dependencies": {
+    "@factor/core": "^1.0.0",
+    "@factor/plugin-notify": "^1.0.0",
+    "@factor/plugin-seo": "^1.0.0",
+    "@factor/plugin-sitemap": "^1.0.0",
+    "@factor/plugin-contact-form": "^1.0.0",
+    "@factor/plugin-storage-s3": "^1.0.0",
+    "@factor/theme-alpha": "^1.8.30"
+  },
+  "factor": {
+    "app": {
+      "name": "Test Factor Site",
+      "description": "Just a basic test",
+      "url": "https://hammersportmarketing.com",
+      "email": "riley@hammersportmarketing.com"
+    },
+    "admins": [
+      "riley@hammersportmarketing.com",
+      "riley@hammersportmarketing.com"
+    ],
+    "load": [
+      "app",
+      "server"
+    ]
+  }
+}
